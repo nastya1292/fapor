@@ -282,7 +282,7 @@ footer form button:hover{
 }
 .f_2 .f_container_2 .soc:first-of-type:hover{
     background-color: #b5a263;
-    border: none;
+    border: 1px;
 }
 .f_2 .f_container_2 .soc i:hover{
    color: white;
