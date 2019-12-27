@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+    url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.eot');
+    src: url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Bold.woff2') format('woff2'),
+    url('../fonts/Raleway-Bold.woff') format('woff'),
+    url('../fonts/Raleway-Bold.ttf') format('truetype'),
+    url('../fonts/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.eot');
+    src: url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+    url('../fonts/Raleway-SemiBold.woff') format('woff'),
+    url('../fonts/Raleway-SemiBold.ttf') format('truetype'),
+    url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: '../fonts/Open Sans';
+    src: url('../fonts/OpenSans-Light.eot');
+    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/OpenSans-Light.woff') format('woff'),
+    url('../fonts/OpenSans-Light.ttf') format('truetype'),
+    url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+  background-color:#24282f;
+    padding-top: 29px;
+}
+.container{
+    max-width: 1093px;
+    margin: auto;
+}
+.logo{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li{
+  display: inline-block;
+    float: right;
+    margin-left: 46px;
+    padding-top: 3px;
+    margin-bottom: 33px;
+}
+.container:after, header nav ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header nav ul li a{
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 11px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+header nav ul li:after, .managment .user .details h3 span:after{
+    display: block;
+    content: "";
+    height: 2px;
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+    bottom: -37px;
+}
+header nav ul li:hover:after, header nav ul li.active:after{
+    background-color: #b5a263;
+}
+.about-us{
+    background-image: url("../images/bg_img.png");
+    background-size: cover;
+    padding-top: 71px;
+    padding-bottom: 83px;
+    margin-bottom: 121px;
+}
+h1{
+    font-size: 32px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font:11px/19px 'Open Sans', sans-serif;
+    opacity: 0.8;
+}
+h2{
+    text-align: center;
+    font-size: 19px;
+    color: #3e4146;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.managment{
+    padding-bottom: 23px;
+
+}
+.managment h2:after{
+    content: "";
+    display: block;
+    width: 61px;
+    margin: auto;
+    height: 3px;
+    background-color: #b5a263;
+    margin-top: 10px;
+}
+.managment .container{
+    max-width: 880px;
+}
+.managment .user{
+    display: inline-block;
+    float: left;
+    margin-right: 71px;
+    margin-bottom: 33px;
+}
+.managment .user:last-of-type{
+    float: right;
+    margin: 0;
+}
+.managment .user img{
+    width: 100%;
+    max-width: 246px;
+    display: block;
+    margin-bottom: 22px;
+}
+.managment .user .details h3{
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: #232323;
+}
+.managment .user .details .soc{
+    float: right;
+}
+.managment .user .details h3 span{
+    display: block;
+    font-size: 11px;
+    color:#b5a263;
+    font-family: 'Open Sans';
+    text-transform: none;
+}
+.managment .user .details .soc{
+    background-color: #dedede;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+.managment .user .details .soc i{
+    font-size: 12px;
+    color: white;
+}
+footer{
+    background-color: #2b2f35;
+
+}
+footer form{
+    float: right;
+    max-width: 238px;
+    margin-top: -148px;
+}
+footer h3{
+    color: #918457;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    margin-bottom: 19px;
+
+}
+footer p{
+    font-size: 11px;
+    color: #6e7279;
+    font-family: "Open Sans";
+}
+footer form input{
+    width: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #61656b;
+    border-width: 1px;
+    background-color: #24282f;
+    padding: 8px;
+    margin-bottom: 9px;
+}
+footer form button{
+    width: 100%;
+    background-color: #b5a263;
+    border: none;
+    font-size: 11px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+footer form button:hover{
+    background-color: #b5a263;
+}
+.f_container{
+    margin: auto;
+    max-width: 892px;
+    padding-top: 63px;
+    margin-bottom: 35px;
+}
+.f_about{
+    float: left;
+    width: 238px;
+    margin-right: 136px;
+}
+.f_2{
+    background-color: #24282f;
+    height: 53px;
+    border-top: solid;
+    border-color: #42464c;
+    border-width: 1px;
+}
+.f_container_2{
+    margin: auto;
+    max-width: 892px;
+}
+.f_2 .f_container_2 p{
+    padding-top: 22px;
+    float: left;
+}
+.f_2 .f_container_2 .soc{
+    background-color: #24282f;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 28px;
+    float: right;
+    margin-top: 13px;
+    border-style: solid;
+    border-color: #6e7279;
+    border-width: 1px;
+}
+.f_2 .f_container_2 .soc i{
+    font-size: 12px;
+    color: #6e7279;
+}
+.f_2 .f_container_2 .soc:first-of-type:hover{
+    background-color: #b5a263;
+    border: none;
+}
+.f_2 .f_container_2 .soc i:hover{
+   color: white;
+}
