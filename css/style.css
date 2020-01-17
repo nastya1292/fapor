@@ -287,3 +287,55 @@ footer form button:hover{
 .f_2 .f_container_2 .soc i:hover{
    color: white;
 }
+.owl-nav .owl-prev {
+    margin: 0 5px;
+    position: absolute;
+    left: 0;
+    color: black!important;
+    font-family: "Font Awesome\ 5 Free"!important;
+    font-weight: 900!important;
+}
+.owl-nav .owl-prev:before{
+    content: "\f053";
+    display: inline-block;
+    color: black!important;
+}
+/*.owl-prev{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    bottom: 100px;*/
+/*}*/
+.owl-nav .owl-next {
+    color: black!important;
+    margin: 0 5px;
+    font-family: "Font Awesome\ 5 Free"!important;
+    font-weight: 900!important;
+    position: absolute;
+    right: 0;
+}
+.owl-nav .owl-next:after{
+    content: "\f054";
+    display: inline-block;
+    color: black!important;
+}
+/*.owl-next{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    bottom: 100px;*/
+/*}*/
+.jscarousel{
+    background-color: #f7f7f7;
+}
+.jscarousel .container{
+    margin: auto;
+    max-width: 888px;
+}
+.jscarousel .container .owl-carousel .WHAT{
+    text-align: center;
+    margin-top: 95px;
+    color: #24282f;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
