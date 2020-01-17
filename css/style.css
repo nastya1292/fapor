@@ -288,7 +288,7 @@ footer form button:hover{
    color: white;
 }
 .owl-nav .owl-prev {
-    margin: 0 5px;
+    margin: -246px 5px;
     position: absolute;
     left: 0;
     color: black!important;
@@ -307,7 +307,7 @@ footer form button:hover{
 /*}*/
 .owl-nav .owl-next {
     color: black!important;
-    margin: 0 5px;
+    margin: -246px 5px;
     font-family: "Font Awesome\ 5 Free"!important;
     font-weight: 900!important;
     position: absolute;
@@ -339,3 +339,42 @@ footer form button:hover{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
+.jscarousel .container .owl-carousel .WHAT .after{
+    content: "";
+    display: block;
+    width: 61px;
+    margin: auto;
+    height: 3px;
+    background-color: #24282f;
+    margin-top: 23px;
+    margin-bottom: 50px;
+}
+.jscarousel .container .owl-carousel .WHAT img{
+    width: 73px;
+    height: 71px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.jscarousel .container .owl-carousel .WHAT p{
+    color: #000000;
+    font-size: 11px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-transform: none;
+    margin-bottom: 33px;
+}
+.jscarousel .container .owl-carousel .WHAT h4{
+      color: #b5a263;
+      font-size: 13px;
+      text-transform: uppercase;
+      font-family: "Open Sans";
+      margin-bottom: 12px;
+}
+.jscarousel .container .owl-carousel .WHAT .gm {
+    color: #000000;
+    font-size: 11px;
+    text-transform: none;
+    font-family: "Open Sans";
+    margin-bottom: 91px;
+}
+
