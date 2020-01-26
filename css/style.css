@@ -586,7 +586,7 @@ footer form button:hover{
 }
 .login_bg #tabs ul:nth-child(1):after{
     content: '';
-    display: block;
+    display: inline-block;
     width: 110px;
     background-color: black;
     height: 4px;
@@ -701,7 +701,6 @@ footer form button:hover{
 }
 a#ui-id-2.ui-tabs-anchor{
     color: white;
-    text-align: center;
 }
 .ui-helper-clearfix:before, .ui-helper-clearfix:after {
     content: "";
@@ -732,4 +731,14 @@ a#ui-id-2.ui-tabs-anchor{
 }
 .ui-widget.ui-widget-content.ui-corner-all{
     border: none;
+}
+.d4 {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #e7cfa6;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+    padding: 0;
 }
