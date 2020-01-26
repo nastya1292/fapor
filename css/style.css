@@ -136,7 +136,7 @@ h1{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
-p{
+.about-us p{
     color: white;
     font:11px/19px 'Open Sans', sans-serif;
     opacity: 0.8;
@@ -546,6 +546,190 @@ footer form button:hover{
     padding-top: 43px;
     padding-right: 41px;
 }
-
-
-
+/*login page*/
+.login_bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 420px;
+    background-image: url("../images/bg_login.png");
+    padding-top: 100px;
+}
+.left_side{
+    float: left;
+    max-width: 480px;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: block;
+}
+.right_side{
+    float: right;
+    max-width: 450px;
+    width: 100%;
+}
+.login_bg h4{
+    font: 11px/11px 'Montserrat', sans-serif;
+    color: #434343;
+    margin-bottom: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.login_bg h4:nth-child(2):after{
+    content: '';
+    display: block;
+    width: 110px;
+    background-color: black;
+    height: 1px;
+    margin-top: 34px;
+    margin-bottom: 6px;
+}
+.login_bg #tabs ul:nth-child(1):after{
+    content: '';
+    display: block;
+    width: 110px;
+    background-color: black;
+    height: 4px;
+    margin-top: 34px;
+    margin-bottom: 6px;
+}
+.left_side .form_group label{
+    color: #494031;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.right_side .form_group label{
+    color: #494031;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.left_side .form_group input{
+     box-sizing:border-box;
+     border: none;
+     background-color: white;
+     line-height: 31px;
+     width: 100%;
+     max-width: 449px;
+     margin-bottom: 36px;
+}
+.right_side .form_group input{
+    box-sizing:border-box;
+    border: none;
+    background-color: #f6f6f6;
+    line-height: 31px;
+    width: 100%;
+    max-width: 449px;
+    margin-bottom: 36px;
+}
+.right_side .form_group .pink{
+    box-sizing:border-box;
+    border: none;
+    background-color: #fbf7f1;
+    line-height: 31px;
+    width: 100%;
+    max-width: 449px;
+    margin-bottom: 36px;
+}
+.left_side button{
+    background-color: #e7cfa6;
+    border-radius: 30px;
+    color: #434343;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    max-width: 191px;
+    width: 100%;
+    line-height: 37px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.right_side button{
+    background-color: #e7cfa6;
+    border-radius: 30px;
+    color: #434343;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    max-width: 191px;
+    width: 100%;
+    line-height: 37px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.right_side form{
+    margin-top: 20px;
+}
+.left_side a{
+    font-size: 10px;
+    color: #434343;
+    text-transform: uppercase;
+    float: right;
+    line-height: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.login_bg .left_side .form_group{
+    max-width: 450px;
+}
+.login_bg .right_side .form_group{
+    max-width: 450px;
+}
+.ui-widget-header {
+    background-color: white;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+    background-color: #e7cfa6;
+    border-radius: 0;
+    line-height: 35px;
+    width: 110px;
+    text-align: center;
+}
+.ui-tabs-anchor{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #d1d1d1;
+}
+a#ui-id-2.ui-tabs-anchor{
+    color: white;
+    text-align: center;
+}
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: none;
+    background: white;
+}
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding-left: 0;
+}
+.ui-tabs .ui-tabs-nav li {
+    float: left;
+    position: relative;
+    top: 44px;
+    margin: 1px .2em 0 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap;
+    background-color: white;
+    border: none;
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+    color: #d1d1d1;
+}
+.ui-widget.ui-widget-content.ui-corner-all{
+    border: none;
+}
