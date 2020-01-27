@@ -402,7 +402,7 @@ footer form button:hover{
     margin-bottom: 91px;
 }
 .ui-widget-header{
-    background-color: black;
+    background-color: black!important;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -483,12 +483,11 @@ footer form button:hover{
     margin-bottom: 29px;
     border-radius: 4px;
 }
+#dialog{
+    text-align: center;
+}
 #dialog .container{
     max-width: 576px;
-    margin: auto;
-}
-#dialog .container2{
-    max-width: 528px;
     margin: auto;
 }
 #dialog .container p{

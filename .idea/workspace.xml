@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a54bd6e-0165-4757-8057-e31fb71c966f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fapor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Fapor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +84,9 @@
       <workItem from="1579806507039" duration="7510000" />
       <workItem from="1579814429041" duration="106000" />
       <workItem from="1579884252647" duration="7044000" />
-      <workItem from="1580069103596" duration="8196000" />
+      <workItem from="1580069103596" duration="8410000" />
+      <workItem from="1580078734716" duration="742000" />
+      <workItem from="1580143369072" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="change css">
       <created>1577473357980</created>
@@ -142,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580076796843</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit2 login page">
+      <created>1580078256732</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580078256732</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +181,7 @@
     <MESSAGE value="commit2 Dialog jQuery" />
     <MESSAGE value="commit login page" />
     <MESSAGE value="commit login page add sass" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit login page add sass" />
+    <MESSAGE value="commit2 login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit2 login page" />
   </component>
 </project>
