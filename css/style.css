@@ -401,13 +401,13 @@ footer form button:hover{
     font-family: "Open Sans";
     margin-bottom: 91px;
 }
-.ui-widget-header{
+.ui-dialog .ui-widget-header{
     background-color: black!important;
     color: white;
     text-align: center;
     font-weight: bold;
-    border: none;
-    border-radius: 0 0 0 0;
+    border: none!important;
+    border-radius: 0 0 0 0!important;
 }
 .ui-widget.ui-widget-content.ui-corner-all{
     border-bottom-right-radius: 6px;
@@ -583,15 +583,6 @@ footer form button:hover{
     margin-top: 34px;
     margin-bottom: 6px;
 }
-.login_bg #tabs ul:nth-child(1):after{
-    content: '';
-    display: inline-block;
-    width: 110px;
-    background-color: black;
-    height: 4px;
-    margin-top: 34px;
-    margin-bottom: 6px;
-}
 .left_side .form_group label{
     color: #494031;
     font-size: 11px;
@@ -617,7 +608,7 @@ footer form button:hover{
      max-width: 449px;
      margin-bottom: 36px;
 }
-.right_side .form_group input{
+.right_side #tabs #tabs-1 .form_group input{
     box-sizing:border-box;
     border: none;
     background-color: #f6f6f6;
@@ -626,7 +617,7 @@ footer form button:hover{
     max-width: 449px;
     margin-bottom: 36px;
 }
-.right_side .form_group .pink{
+.right_side #tabs #tabs-1 .form_group .pink{
     box-sizing:border-box;
     border: none;
     background-color: #fbf7f1;
@@ -681,63 +672,52 @@ footer form button:hover{
 .login_bg .right_side .form_group{
     max-width: 450px;
 }
-.ui-widget-header {
+.ui-tabs{
+    padding: 0;
+}
+.ui-widget-header{
     background-color: white;
-}
-.ui-tabs .ui-tabs-nav li.ui-tabs-active{
-    background-color: #e7cfa6;
+    border:none;
     border-radius: 0;
-    line-height: 35px;
-    width: 110px;
-    text-align: center;
 }
-.ui-tabs-anchor{
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    text-transform: uppercase;
+.ui-tabs .ui-tabs-nav{
+    margin-bottom: 36px;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    background-color: white;
+    font: 12px 'Montserrat', sans-serif;
     color: #d1d1d1;
-}
-a#ui-id-2.ui-tabs-anchor{
-    color: white;
-}
-.ui-helper-clearfix:before, .ui-helper-clearfix:after {
-    content: "";
-    display: table;
-    border-collapse: collapse;
-}
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-    border: none;
-    background: white;
-}
-.ui-tabs .ui-tabs-nav {
-    margin: 0;
-    padding-left: 0;
+    border-bottom: solid 2px #d1d1d1;
+    padding: 7px 20px;
 }
 .ui-tabs .ui-tabs-nav li {
-    float: left;
+    border: none;
+    margin-right: 21px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    background-color: #e7cfa6;
+    border: #e7cfa6;
+    color: white;
+    outline: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background-color: #e7cfa6;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active:after{
+    content: '';
+    display: block;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    background-color: #e7cfa6;
     position: relative;
-    top: 44px;
-    margin: 1px .2em 0 0;
-    border-bottom-width: 0;
-    padding: 0;
-    white-space: nowrap;
-    background-color: white;
-    border: none;
+    top: 25px;
+    margin: auto;
 }
-.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
-    color: #d1d1d1;
-}
-.ui-widget.ui-widget-content.ui-corner-all{
-    border: none;
-}
-.d4 {
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #e7cfa6;
-}
-.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+.ui-tabs .ui-tabs-panel {
     padding: 0;
 }
+.login .right_heading{
+    margin-bottom: 44px;
+}
+
