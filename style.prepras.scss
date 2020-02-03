@@ -1,0 +1,12 @@
+@import "fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css";
+@import "css/owl.carousel.min.css";
+@import "css/owl.theme.default.min.css";
+@import "css/style.css";
+
+
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
