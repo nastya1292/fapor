@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a54bd6e-0165-4757-8057-e31fb71c966f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fapor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1_Монтажная область 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/2_Монтажная область 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/courteneycox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/david schwimmer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/face.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo_fapor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mattleblanc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/psd/Forgot Password 1.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/psd/Login &amp; Sign Up _01.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/psd/test_light.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.prepras.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.prepras.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.prepras.scss" beforeDir="false" />
-    </list>
+    <list default="true" id="2a54bd6e-0165-4757-8057-e31fb71c966f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
