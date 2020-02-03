@@ -3,13 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="2a54bd6e-0165-4757-8057-e31fb71c966f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/af480ca6ad75de013a9b586509a22f567357e123/style.prepras.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/af480ca6ad75de013a9b586509a22f567357e123/style.prepras.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fapor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Fapor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.prepras.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.prepras.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.prepras.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.prepras.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.prepras.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.prepras.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fapor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1_Монтажная область 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2_Монтажная область 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/courteneycox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/david schwimmer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo_fapor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mattleblanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/psd/Forgot Password 1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/psd/Login &amp; Sign Up _01.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/psd/test_light.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.prepras.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.prepras.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.prepras.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend/project1/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -92,7 +103,9 @@
       <workItem from="1580069103596" duration="8410000" />
       <workItem from="1580078734716" duration="742000" />
       <workItem from="1580143369072" duration="6995000" />
-      <workItem from="1580228933044" duration="7759000" />
+      <workItem from="1580228933044" duration="7931000" />
+      <workItem from="1580481543162" duration="172000" />
+      <workItem from="1580756320340" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="change css">
       <created>1577473357980</created>
@@ -171,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580150194743</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit prepras">
+      <created>1580237255819</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580237255820</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +224,7 @@
     <MESSAGE value="commit2 login page" />
     <MESSAGE value="commit Dialog" />
     <MESSAGE value="commit Tabs jquery" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Tabs jquery" />
+    <MESSAGE value="commit prepras" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit prepras" />
   </component>
 </project>
